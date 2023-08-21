@@ -1,0 +1,2 @@
+STAGE 2023
+societé: MINOTORE

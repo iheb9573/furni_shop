@@ -1,0 +1,175 @@
+header {
+  height: 70px;
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.option_nav{
+  display: inline-flex;
+  align-items: center;
+  gap: 74px; 
+  float: right;
+}
+.option_nav a{
+  font-size: 16px;
+color: #242424;
+font-weight: 400;
+font-family: "Roboto";
+text-decoration: none;
+}
+.searsh_icon{
+  width: 19.815px;
+  height: 20px;
+ display: inline;   
+}
+.w-100{
+  width: 80% !important;
+  float: right;
+}
+.txt-img{
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+ margin-top: 200px;
+  background: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(25px);
+    opacity: 0.9;
+}
+.txt-img h1{
+  width: 372px;
+height: 216px;
+font-size: 54px;
+letter-spacing: -1px;
+line-height: 72px;
+color: #244d4d;
+font-weight: 700;
+font-family: "Roboto";
+}
+.txt-img h5{
+  font-size: 20px;
+line-height: 30px;
+color: #5f5f64;
+font-weight: 400;
+font-family: "Roboto";
+}
+.carousel-control-next-icon{
+  background-image: url(img/next.png);
+}
+.carousel-control-prev-icon{
+  background-image: url(img/prev.png) ;
+}
+.carousel-control-prev{
+  left: 1220px;
+  opacity: 1;
+  top: -200px;
+}
+.carousel-control-next {
+  position: absolute;
+  opacity: 1;
+  right: -160px;
+  top: -200px;
+  
+}
+
+.carousel-indicators{
+  display: none;
+}
+.farm{
+  margin-top: 80px;
+}
+.farm h1{
+  font-size: 50px;
+line-height: 50px;
+color: #244d4d;
+font-weight: 400;
+font-family: "Roboto";
+}
+.farm h5{
+  font-size: 16px;
+line-height: 26px;
+color: #5f5f64;
+font-weight: 400;
+font-family: "Roboto";
+}
+.farm h4{
+  font-size: 20px;
+  line-height: 28px;
+  color: #3d3d3f;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.farm h5{
+  font-size: 16px;
+line-height: 26px;
+color: #5f5f64;
+font-weight: 400;
+font-family: "Roboto";
+}
+.combinaison{
+  background: #F4F6F6;
+    display: flex;
+ 
+height: 205px;
+padding: 55px 240.28px 55.016px 240px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-top: 60px;
+}
+.topograph{
+  font-size: 20px;
+letter-spacing: 2px;
+color: #031745;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+.microsoft{
+  fill: #A1A6BA;
+  width: 116.667px;
+height: 24.991px;
+flex-shrink: 0;
+margin: 25px;
+}
+.entrepreur{
+  fill: #A1A6BA;
+  width: 127.632px;
+height: 24.991px;
+flex-shrink: 0;
+margin: 25px;
+}
+.fortune{
+  fill: #A1A6BA;
+  width: 120.377px;
+height: 19.993px;
+flex-shrink: 0;
+margin: 25px;
+}
+.business{
+  fill: #A1A6BA;
+  width: 92.5px;
+  height: 29.989px;
+  flex-shrink: 0;
+  margin: 25px;
+}
+.mashable{
+  fill: #A1A6BA;
+  width: 102.545px;
+  height: 17.994px;
+  flex-shrink: 0;
+  margin: 25px;
+}
