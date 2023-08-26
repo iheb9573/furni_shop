@@ -122,7 +122,7 @@ font-family: "Roboto";
 }
 .combinaison{
   background: #F4F6F6;
-    display: flex;
+    /* display: flex; */
  
 height: 205px;
 padding: 55px 240.28px 55.016px 240px;
