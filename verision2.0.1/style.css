@@ -47,7 +47,7 @@ text-decoration: none;
   position: absolute;
   background: rgba(255, 255, 255, 0.40);
     backdrop-filter: blur(25px);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .txt-img h1{
   width: 372px;
@@ -73,14 +73,15 @@ font-family: "Roboto";
   background-image: url(img/prev.png) ;
 }
 .carousel-control-prev{
-  left: 1220px;
+  left: 1041px;
   opacity: 1;
   top: -200px;
+  padding: 10px;
 }
 .carousel-control-next {
   position: absolute;
   opacity: 1;
-  right: -160px;
+  right: -115px;
   top: -200px;
   
 }
@@ -137,6 +138,7 @@ color: #031745;
 font-weight: 400;
 font-family: "Roboto";
 text-align: center;
+display: inline-block
 }
 .microsoft{
   fill: #A1A6BA;
@@ -172,4 +174,17 @@ margin: 25px;
   height: 17.994px;
   flex-shrink: 0;
   margin: 25px;
+}
+.img_down{
+  position: absolute;
+  /* opacity: 0.9; */
+  left: 992px;
+  bottom: -15px;
+  opacity: 0.5;
+width: 124px;
+height: 124px;
+background-color: #9b9b9b;
+}
+.titre{
+  display: inline-block !important;
 }
