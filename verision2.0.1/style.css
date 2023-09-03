@@ -136,6 +136,7 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 margin-top: 60px;
+margin-bottom: 60px;
 }
 .topograph{
   font-size: 20px;
@@ -319,3 +320,82 @@ background-color: #9b9b9b;
   width: 100%;
   height: auto !important;
 }
+footer {
+  background-color: #244d4d;
+  padding-top: 7%;
+}
+.foot_txt{
+  font-size: 45px;
+line-height: 60px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto";
+margin-bottom: 40px;
+}
+.btn_contact {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+  border-radius: 30px;
+   
+
+  font-size: 19px;
+
+font-weight: 500;
+font-family: "Roboto";
+text-align: center;
+}
+.about__section{
+  margin-bottom: 5%;
+}
+.btn_container{
+  display: flex;
+  gap: 5%;
+}
+.cont{
+  background-color: #3a5f5f;
+  color: #fcfbff;
+}
+footer span {
+  font-size: 17px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Roboto";
+margin-bottom: 105px;
+}
+footer a {
+  font-size: 15px;
+color: #eeeeee;
+font-weight: 400;
+font-family: "Inter";
+text-decoration: none;
+}
+footer li {
+  list-style: none ;
+  text-decoration: none;
+  gap: 15px;
+  margin-top: 5px;
+}
+.footer-txt1{
+  font-size: 26px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Noto Serif JP";
+margin-bottom: 10%;
+}
+.footer_txt2{
+  font-size: 15px;
+line-height: 27px;
+color: #eeeeee;
+font-weight: 400;
+font-family: "Roboto";
+}
+.foot-tit-tab{
+ 
+  margin-left: 30px;
+}
+
